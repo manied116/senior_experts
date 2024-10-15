@@ -1,5 +1,6 @@
 import Benefits from "./pages/benefits";
 import Home from "./pages/home";
+import Projects from "./pages/projects";
 import Workflow from "./pages/workflow";
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
      <Home />
      <Benefits />
      <Workflow />
+     <Projects />
     </div>
   );
 }

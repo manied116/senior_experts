@@ -134,10 +134,17 @@ main .main_users{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    max-width: 23%;
 }
 .wrokflow_wrapper .work_flow .card .info{
     display: flex;
     align-items: center;
+}
+.wrokflow_wrapper .work_flow .card .info .avatar{
+    background: #FFF;
+}
+.wrokflow_wrapper .work_flow .card .info .avatar span{
+    color: #000;
 }
 
 .wrokflow_wrapper .work_flow .card .info .ant-divider{
@@ -156,5 +163,43 @@ main .main_users{
     background: #f5f1eb;
     padding: 20px 16px;
     border-radius: 9px;
+    gap: 20px;
 }
 /* workflow end */
+/* peoject start */
+.project_wrapper{
+    height: 400px;
+    background: rgb(14,10,85);
+    background: linear-gradient(90deg, rgba(14,10,85,1) 20%, rgba(204,83,51,1) 70%);
+    padding: 50px 250px;
+}
+.project_wrapper .project_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 90px;
+    color: #FFF
+}
+.project_wrapper .project_content h3{
+    font-size: 33px;
+}
+.project_wrapper .project_content p{
+    font-size: 16px;
+}
+.project_wrapper .project_content button{
+    width: fit-content;
+}
+
+.project_opening{
+    text-align: center;
+    padding: 60px 250px;
+}
+.project_opening h3{
+    font-size: 34px;
+}
+.project_opening p{
+    font-size: 18px;
+    padding: 14px 150px 0px;
+}
+
+/* peoject end */
