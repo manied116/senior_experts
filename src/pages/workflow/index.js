@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row,Switch, Button,Avatar,Badge,Divider} from 'antd';
-import {UserOutlined,CalendarOutlined,LineChartOutlined} from '@ant-design/icons';
+import {UserOutlined,} from '@ant-design/icons';
 
 const Workflow = () => {
     const onChange = (checked) => {
