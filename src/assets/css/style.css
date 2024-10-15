@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Poppins;
+}
+@font-face {
+    font-family: Poppins;
+    src: url('../fonts/Poppins-Regular.ttf');
+    font-weight: 500;
+}
+.wrapper{
+    height: auto;
+    background: rgb(14,10,85);
+    background: linear-gradient(90deg, rgba(14,10,85,1) 20%, rgba(204,83,51,1) 70%);
+}
+.header{
+    /* position: sticky;
+    top: 0; */
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding:8px 60px;
+    background: none;
+}
+
+.header ul{
+    background: none;
+    border-bottom: 0;
+}
+.logo{
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    padding-right: 35px;
+    margin-right: 20px;
+}
+.header ul li span{
+    color: #FFF;
+}
+.action_btn .sign_in{
+    color: #FFF;
+}
+main{
+    margin-top: 60px;
+    padding: 20px 0px 70px;
+    color: #FFF !important;
+}
+main .switch_title{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+main .main_title{
+    padding: 0px 575px;
+}
+main .main_title h2{
+    font-size: 55px;
+    font-weight: 600;
+}
+main .main_content{
+    padding: 0 700px;
+}
+main .main_content p{
+    font-size: 16px;
+}
+.main_action .action_btn{
+    justify-content: center;
+}
+.main_action .action_btn .sign_in span{
+    color: #000;
+}
+
+main .main_users{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+/* benefits start */
+.benefit_wrapper{
+    padding: 40px 60px;
+    text-align: center;
+    background: #f5f5f5;
+}
+.benefit_wrapper .title h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.benefit_wrapper .title{
+    padding: 30px 500px;
+}
+.benefit_wrapper .card{
+    text-align: justify;
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 20px;
+    padding: 35px;
+}
+.benefit_wrapper .card h4{
+    font-weight: 600;
+}
+.benefit_wrapper .card p{
+    line-height: 1.8;
+}
+/* benefits end */
+
+/* workflow start */
+.wrokflow_wrapper{
+    padding: 40px 60px;
+    text-align: center;
+}
+
+.wrokflow_wrapper .workflow_start{
+    padding: 10px 234px;
+    flex-direction: column;
+    gap: 22px;
+    display: flex;
+    text-align: justify;
+}
+.wrokflow_wrapper .workflow_start p{
+    font-weight: 600;
+}
+.wrokflow_wrapper .workflow_start button{
+    width: fit-content;
+}
+.wrokflow_wrapper .work_flow{
+    padding: 20px 250px;
+}
+
+.wrokflow_wrapper .work_flow .card{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.wrokflow_wrapper .work_flow .card .info{
+    display: flex;
+    align-items: center;
+}
+
+.wrokflow_wrapper .work_flow .card .info .ant-divider{
+    margin: 2px 0px;
+    min-width: 15px;
+    width: 15px;
+}
+.wrokflow_wrapper .work_flow .card h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+.wrokflow_wrapper .work_flow .card p{
+    line-height: 1.8;
+}
+.wrokflow_wrapper .work_flow .work_flow_row{
+    background: #f5f1eb;
+    padding: 20px 16px;
+    border-radius: 9px;
+}
+/* workflow end */
