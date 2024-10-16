@@ -67,15 +67,15 @@ const Workflow = () => {
             <Divider style={{minWidth:"80%",width:"80%",marginLeft:'170px'}}/>
 			<Col xs={2} sm={4} md={24} lg={24} xl={24} style={{padding:"20px 125px"}}>
                 <Row>
-                    <Col style={{display:'flex',alignItems:'baseline',gap:"20px",maxWidth:"23%"}} xs={{ span: 5, offset: 1,}} lg={{ span: 6, offset: 2,}}>
+                    <Col style={{display:'flex',alignItems:'baseline',gap:"14px",maxWidth:"23%"}} xs={{ span: 5, offset: 1,}} lg={{ span: 6, offset: 2,}}>
                         <SafetyOutlined />
                         <p style={{textAlign:"justify"}}>Efficient Management: Tools that streamline project communication and collaboration.</p>
                     </Col>
-                    <Col style={{display:'flex',alignItems:'baseline',gap:"20px",maxWidth:"23%"}} xs={{ span: 11, offset: 1, }} lg={{ span: 6, offset: 2, }} >
+                    <Col style={{display:'flex',alignItems:'baseline',gap:"14px",maxWidth:"23%"}} xs={{ span: 11, offset: 1, }} lg={{ span: 6, offset: 2, }} >
                         <SafetyOutlined />
                         <p style={{textAlign:"justify"}}>Security & Trusted: We prioritize data security and user policy.</p>
                     </Col>
-                    <Col style={{display:'flex',alignItems:'baseline',gap:"20px",maxWidth:"23%"}} xs={{ span: 5, offset: 1, }} lg={{ span: 6, offset: 2, }}>
+                    <Col style={{display:'flex',alignItems:'baseline',gap:"14px",maxWidth:"23%"}} xs={{ span: 5, offset: 1, }} lg={{ span: 6, offset: 2, }}>
                         <SafetyOutlined />
                         <p style={{textAlign:"justify"}}>Dedicated support: Our team is here to assist with any concerns.</p>
                     </Col>

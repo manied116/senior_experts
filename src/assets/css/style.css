@@ -186,6 +186,7 @@ main .main_users{
 .project_wrapper .project_content p{
     font-size: 16px;
 }
+
 .project_wrapper .project_content button{
     width: fit-content;
 }
@@ -197,9 +198,60 @@ main .main_users{
 .project_opening h3{
     font-size: 34px;
 }
-.project_opening p{
+.project_opening .content{
     font-size: 18px;
     padding: 14px 150px 0px;
 }
 
+.project_opening .project_list{
+    padding: 8px;
+    background: antiquewhite;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.project_opening .project_list p{
+    font-size: 16px;
+}
+.project_opening .jobPost{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.jobPost .card{
+    padding: 16px;
+    border-radius: 9px;
+    background: linear-gradient(to right, #E2E2E2, #e6eaf5);
+    width: 365px;
+}
+.jobPost .card .head{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+    border-bottom: 1px solid #e8e5e5;
+}
+.jobPost .card .head h3{
+    font-size: 16px;
+}
+.jobPost .card .head p{
+    font-size: 12px;
+}
+.jobPost .card .card_content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: justify;
+    padding: 8px 0px;
+    border-bottom: 1px solid #e8e5e5;
+}
+.jobPost .card .card_content h3{
+    font-size: 16px;
+}
+.jobPost .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+    align-items: center;
+}
 /* peoject end */
